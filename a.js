@@ -1,7 +1,7 @@
 const http = require('http');
 
 http.createServer(function (req, res) {
-    res.setHeader("Content-Type", "application/json");
+    res.setHeader("Content-Type", "text/html");
     switch (req.url) {
         case "/a":
             console.log('a');
